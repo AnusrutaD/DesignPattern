@@ -17,7 +17,8 @@ The Strategy Design Pattern addresses this issue by defining a family of algorit
 ## Payment Processing System
 Imagine a payment processing system that supports multiple payment methods (e.g., Credit Card, PayPal, and Bitcoin). Each payment method has a different way of processing payments, but they all share the same basic structure. Using the Strategy Design Pattern, we can encapsulate each payment method in a separate strategy class.
 
-![Strategy Pattern UML Diagram](sandbox:/![img.png](img.png)mnt/data/Strategy_Pattern_UML.png)
+![Strategy_Pattern_UML](https://github.com/user-attachments/assets/d60a7974-e804-4950-9f2d-214b9d6def69)
+
 
 ### Without the Strategy Design Pattern
 In this scenario, all payment methods (Credit Card, PayPal, and Bitcoin) are handled in a single `PaymentProcessor` class. This leads to tightly coupled code, making it harder to maintain and extend as new payment methods are added.
